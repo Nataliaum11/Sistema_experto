@@ -1,0 +1,19 @@
+{
+  "name": "sistema_experto",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "front_end": "npm start --prefix front_end",
+    "dev": "concurrently \"npm run start\" \"npm run front_end\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "concurrently": "^9.0.1",
+    "express": "^4.21.0",
+    "react-router-dom": "^6.26.2"
+  }
+}
